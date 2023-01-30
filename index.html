@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            background-color: blanchedalmond;
+            color: blue;
+            text-align: center;
+        }
+        h1:hover{
+            text-decoration: underline;
+        }
+        h2{
+            background-color: brown;
+            color: aqua;
+            text-align: center;
+        }
+        h2:hover{
+            background-color: blue;
+            color:yellow;
+            text-decoration: underline;
+            margin-right: 50%;
+            text-shadow: 3px 3px white;
+            transition: 1s;
+            cursor: pointer;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        .a{
+            padding: 30px;
+            background-color: blue;
+            color: rgb(241, 3, 134);
+        }
+        .a:hover{
+            border-top: 5px black dotted;
+            text-decoration: none;
+            text-shadow: 1px 1px white;
+        }
+        .b{
+            padding: 30px;
+            background-color: antiquewhite;
+            color: red;
+        }
+        .b:hover{
+            border-right: 10px black double;
+            text-decoration: none;
+            text-shadow: 1px 1px black;
+        }
+        .c{
+            padding: 30px;
+            background-color: violet;
+            color: black;
+        }
+        .c:hover{
+            border-bottom: 5px black dashed;
+            text-decoration: none;
+            text-shadow: 1px 1px white;
+        }
+        .d{
+            padding: 30px;
+            background-color: aquamarine;
+            color: blue;
+        }
+        .d:hover{
+            border-left: 5px black solid;
+            text-decoration: none;
+            text-shadow: 1px 1px pink;
+        }
+        marquee{
+            background-color: blue;
+            color: cornsilk;
+            margin-top: 100px;
+            margin-top: 15px;
+            padding: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>CSS Elemnets</h1>
+    <h2>Colors</h2>
+    <div style="display: flex;">
+        <div style="border: 1px black solid; background-color: antiquewhite; justify-content: center;">
+            <h3 style="text-align: center; text-decoration: underline;">Hexa-decimal color format</h3>
+            <p style="color: #5d6f8c; padding-left: 10px;" id="p1">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        </div>
+        <div style="border: 1px black solid; margin-left: 10px; background-color: yellow;">
+            <h3 style="text-align: center; text-decoration: underline;">RGB with alpha color format</h3>
+            <p style="color:rgb(59, 200,30 ); padding-left: 10px;">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        </div>
+        <div style="border: 1px black solid; margin-left: 10px; background-color:coral;">
+            <h3 style="text-align: center; text-decoration: underline;">HSL with alpha color format</h3>
+            <p style="color:hsl(250, 30%, 50%); padding-left: 10px;">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        </div>
+    </div>
+    <h2>Borders</h2>
+    <div style="display:flex;">
+        <div style="margin-left: 190px;">
+            <h1 class="a">Hello World</h1>
+        </div>
+        <div style="margin-left: 10px;">
+            <h1 class="b">Hello World</h1>
+        </div>
+        <div style="margin-left: 10px;">
+            <h1 class="c">Hello World</h1>
+        </div>
+        <div style="margin-left: 10px;">
+            <h1 class="d">Hello World</h1>
+        </div>
+    </div>
+    <h2>iFrame</h2>
+    <iframe width="1250" height="315" src="https://www.youtube.com/embed/5oH9Nr3bKfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <marquee>Thank you... Visit Again</marquee>
+</body>
+</html>
